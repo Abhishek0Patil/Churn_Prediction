@@ -114,4 +114,4 @@ The application follows a simple yet effective pipeline to make predictions:
 -   **Model**: The prediction model is a sequential neural network built with TensorFlow/Keras and saved as `model.h5`.
 -   **Preprocessing Objects**: The `scaler.pkl`, `label_encoder_gender.pkl`, and `onehot_encoder_geo.pkl` files are essential. They store the "state" of the preprocessing steps applied to the original training data. Using them ensures that the live data entered by the user is transformed in the exact same way as the data the model was trained on.
 
-*Note: The script used for training the model and creating these `.pkl` and `.h5` files is not included in this deployment application but is a prerequisite.*
+
